@@ -49,8 +49,8 @@
 							<a href="<?php echo get_term_link( $term->slug, 'product_cat' ); ?>" title="<?php echo $title; ?>">
 								<div class="thumb"><?php echo $thumb_image; ?></div>
 								<div class="title"><strong><?php echo ( strlen( $title ) > 70 ) ? substr( $title , 0, 70) . '...' : $title; ?></strong></div>
-								<a href="<?php echo get_term_link( $term->slug, 'product_cat' ); ?>" class="button"><?php echo __('View', 'jigoshop'); ?></a>
 							</a>
+							<a href="<?php echo get_term_link( $term->slug, 'product_cat' ); ?>" class="button" title="<?php echo __('View', 'jigoshop') . ' ' . $title; ?>"><?php echo __('View', 'jigoshop'); ?></a>
 						</li>
 						<?php
 					}
