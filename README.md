@@ -29,3 +29,11 @@ Features
 	
 	Jigoshop template file:	templates/taxonomy-product_cat.php
 	Snippets file: 		jigoshop/display_sub-category.php
+
+### Display mini-cart:
+----------------------
+	
+	Description: Display number of items and total value of your cart including a link to view it
+	
+	Jigoshop template file: Whatever
+	Snippets file:		jigoshop/display_mini_cart.php
